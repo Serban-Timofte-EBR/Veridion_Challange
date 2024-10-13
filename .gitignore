@@ -1,0 +1,26 @@
+# Ignore virtual environment folders
+env/
+.venv/
+
+# Ignore Python cache files
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore data files (except for the CSV used in the project)
+data/*
+!data/furniture_stores_pages.csv
+
+# Ignore system-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore log files
+*.log
+
+# Ignore requirements.txt in case it's generated from pip freeze and manually managed
+# !requirements.txt
